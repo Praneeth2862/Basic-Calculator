@@ -69,14 +69,33 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     font-family: cursive;
 }
 /* Responsive Styles */
+/* Responsive Styles */
 @media (max-width: 768px) {
     .button-set {
         width: 50vw; /* Adjust width for tablets */
+    }
+
+    .button-set button {
+        padding: 6px 14px; /* Adjust button padding for tablets */
+        font-size: 1.2em; /* Adjust font size for tablets */
+    }
+
+    .credit {
+        font-size: 0.8em; /* Adjust font size for tablets */
     }
 }
 
 @media (max-width: 480px) {
     .button-set {
         width: 80vw; /* Adjust width for smartphones */
+    }
+
+    .button-set button {
+        padding: 4px 10px; /* Adjust button padding for smartphones */
+        font-size: 1em; /* Adjust font size for smartphones */
+    }
+
+    .credit {
+        font-size: 0.6em; /* Adjust font size for smartphones */
     }
 }
