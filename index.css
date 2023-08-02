@@ -68,8 +68,9 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     top:71%;
     font-family: cursive;
 }
-/* Responsive Styles */
-/* Responsive Styles */
+/* ...Your existing CSS code... */
+
+/* Responsive Styles for Tablets (e.g., iPad) */
 @media (max-width: 768px) {
     .button-set {
         width: 50vw; /* Adjust width for tablets */
@@ -85,6 +86,7 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     }
 }
 
+/* Responsive Styles for Smartphones (e.g., Poco X3 Pro) */
 @media (max-width: 480px) {
     .button-set {
         width: 80vw; /* Adjust width for smartphones */
@@ -97,5 +99,17 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 
     .credit {
         font-size: 0.6em; /* Adjust font size for smartphones */
+    }
+}
+
+/* Additional Media Query for Smaller Smartphones */
+@media (max-width: 400px) {
+    .button-set button {
+        padding: 2px 8px; /* Adjust button padding for smaller smartphones */
+        font-size: 0.8em; /* Adjust font size for smaller smartphones */
+    }
+
+    .credit {
+        font-size: 0.5em; /* Adjust font size for smaller smartphones */
     }
 }
