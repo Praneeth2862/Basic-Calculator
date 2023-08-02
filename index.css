@@ -68,3 +68,15 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     top:71%;
     font-family: cursive;
 }
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .button-set {
+        width: 50vw; /* Adjust width for tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .button-set {
+        width: 80vw; /* Adjust width for smartphones */
+    }
+}
